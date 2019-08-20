@@ -1,2 +1,9 @@
-# MongoToMysql
-mongodb数据库同步到mysql
+1.将mongodb数据库同步到mysql
+
+2.自定义mongo和mysql的相关配置信息
+
+3.目前只支持简单功能：mysql字段默认为varchar(100),id为主键，根据 id 过滤重复数据
+
+4.支持根据不同时间段同步
+
+5.日志记录同步时间段，以及成功和失败条数
